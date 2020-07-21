@@ -15,8 +15,9 @@ Tweets Sentiment Classification
 3) Weights (tmp_weights)
 
 #### Model Deployemnet :-
-1) !!!!!!!!!Something Will come Here!!!!!!!!!!!
-
+1) Model is Deployed via REST API by Flask (main_app.py)
+2) Loading Model and input data preparation is done as a standalone (processing.py)
+3) An exampler request with a dummy input is made, to check the deployement on the local server. (request.py)
 #### Requirements :-
 1) TensorFlow
 2) Keras
